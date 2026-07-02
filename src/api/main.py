@@ -1,7 +1,7 @@
 
 from fastapi import FastAPI
 
-from database import create_tables
+from ..database import create_tables
 from ..routes.tasks import router as tasks_router
 
 

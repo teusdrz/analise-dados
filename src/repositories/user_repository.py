@@ -1,10 +1,9 @@
 import sqlite3
 from typing import Optional
 
-from database import get_connection
+from ..database import get_connection
 from ..domain.models import User
-from config import DB_PATH
-
+from ..config import DB_PATH
 class UserRepository:
     
     def __init__ (self, db_path=DB_PATH) -> None:

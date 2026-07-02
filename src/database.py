@@ -1,11 +1,8 @@
 
-
 import sqlite3
 from contextlib import contextmanager
 from typing import Generator
-
 from .config import DB_PATH
-
 SQL_CREATE_USERS = """
     CREATE TABLE IF NOT EXISTS users (
         id         INTEGER PRIMARY KEY AUTOINCREMENT,

@@ -2,10 +2,9 @@
 import sqlite3                                 
 from typing import Optional                   
 
-from database import get_connection         
+from ..database import get_connection         
 from ..domain.models import Task, TaskStatus    
-from config import DB_PATH                 
-
+from ..config import DB_PATH
 
 class TaskRepository:
  

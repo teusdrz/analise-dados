@@ -1,5 +1,4 @@
-
-from database import create_tables
+from ..database import create_tables
 from ..services.task_service import TaskService
 from ..repositories.user_repository import UserRepository
 from ..domain.models import User

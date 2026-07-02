@@ -4,8 +4,7 @@ from typing import Optional
 
 from ..repositories.task_repository import TaskRepository
 from ..domain.models import Task, TaskStatus
-from config import DB_PATH
-
+from ..config import DB_PATH
 
 class TaskService:
  
