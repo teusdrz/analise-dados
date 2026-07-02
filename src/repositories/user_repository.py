@@ -1,9 +1,9 @@
 import sqlite3
 from typing import Optional
 
-from .database import get_connection
-from .models import User
-from .config import DB_PATH
+from database import get_connection
+from ..domain.models import User
+from config import DB_PATH
 
 class UserRepository:
     

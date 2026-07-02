@@ -1,10 +1,8 @@
-from src.database import create_tables
-from src.service import TaskService
-from src.user_repository import UserRepository
-from src.models import User
 
-
-
+from database import create_tables
+from ..services.task_service import TaskService
+from ..repositories.user_repository import UserRepository
+from ..domain.models import User
 
 def print_header(title: str) -> None:
     
